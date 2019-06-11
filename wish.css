@@ -1,0 +1,69 @@
+body {
+  background-color: #631be8;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+#list {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2em;
+  padding-bottom: 2em;
+  }
+
+.table {
+  text-align: center;
+  display:block;
+
+}
+
+
+#wish1
+{
+  margin-left: 2em;
+  padding-left: 5em;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 1em;
+}
+
+#wish2
+{
+  margin-left: 2em;
+  padding-left: 5em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 1em;
+}
+
+#wish3
+{
+  margin-left: 2em;
+  padding-left: 5em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 1em;
+}
+
+#envoi {
+  text-align: center;
+  margin-right: 4em;
+  margin-left: 3em;
+}
+
+#oups {
+  text-align: center;
+  margin-left: 2em;
+
+}

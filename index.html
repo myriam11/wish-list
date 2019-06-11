@@ -1,33 +1,35 @@
 <!DOCTYPE html>
   <html>
-    <head>
-      <title>Wish-list</title>
-        <meta charset="utf-8">
+      <head>
+          <title>Wish-list</title>
+              <meta charset="utf-8">
 
-        <link rel="stylesheet" type="text/css" href="style.css" >
-        <script src="jquery.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous"></script>
+              <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
-        </head>
+              <link rel="stylesheet" type="text/css" href="wish.css" >
+              <script src="jquery.js"></script>
+
+              <script src="https://code.jquery.com/jquery-3.4.1.js"
+              integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+              crossorigin="anonymous"></script>
+              <!-- on inclut la bibliothèque depuis les serveurs de Google -->
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+      </head>
 
 
+          <body>
 
-
-
-        <body>
-            <header>
-                <h1>Wish-list</h1>
-
+              <header>
+                  <h1>Wish-list</h1>
               </header>
 
 
-              <div id="erreur">
+
+              <div id="list">
                   <p>Décrivez votre Wish-list 2019!</p>
               </div>
 
-              <form>
+              <form class="table">
                   <label for="wish1">wish1</label> <input type="text" id="wish1" class="champ" /><br /><br />
                   <label for="wish2">wish2</label> <input type="text" id="wish2" class="champ" /><br /><br />
                   <label for="wish3">wish3</label> <input type="text" id="wish3" class="champ" /><br /><br />
